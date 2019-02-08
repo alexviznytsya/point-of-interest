@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project 3 - A1</string>
+    <string name="permission_label">Project 3 permission</string>
+    <string name="permission_description">send broarcast intents to appliction A2</string>
+</resources>

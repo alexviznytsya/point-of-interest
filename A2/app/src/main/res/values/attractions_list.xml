@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attraction_titles">
+        <item>Millennium Park</item>
+        <item>Art Institute of Chicago</item>
+        <item>Wrigley Field</item>
+        <item>Lincoln Park Zoo</item>
+        <item>The Field Museum</item>
+        <item>Shedd Aquarium</item>
+        <item>Museum of Science and Industry</item>
+        <item>Adler Planetarium</item>
+        <item>360 Chicago</item>
+        <item>Willis Tower Skydeck</item>
+    </string-array>
+
+    <string-array name="attraction_urls">
+        <item>https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>http://www.artic.edu</item>
+        <item>https://www.mlb.com/cubs/ballpark</item>
+        <item>https://www.lpzoo.org</item>
+        <item>https://www.fieldmuseum.org</item>
+        <item>https://www.sheddaquarium.org</item>
+        <item>https://www.msichicago.org</item>
+        <item>https://www.adlerplanetarium.org</item>
+        <item>http://www.360chicago.com</item>
+        <item>http://theskydeck.com</item>
+    </string-array>
+</resources>

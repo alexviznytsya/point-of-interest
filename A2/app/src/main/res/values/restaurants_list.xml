@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="restaurant_titles">
+        <item>Alinea</item>
+        <item>Topolobampo</item>
+        <item>Smyth</item>
+        <item>Momotaro</item>
+        <item>Elske</item>
+        <item>Acadia</item>
+    </string-array>
+    
+    <string-array name="restaurant_urls">
+        <item>http://www.alinearestaurant.com</item>
+        <item>http://www.rickbayless.com/restaurants/topolobampo</item>
+        <item>https://www.smythandtheloyalist.com/smyth</item>
+        <item>https://www.momotarochicago.com</item>
+        <item>https://elskerestaurant.com</item>
+        <item>https://acadiachicago.com</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uic.cs478.sp18.project3.a2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Attractions">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Restaurants">
+
+        </activity>
+        <receiver
+            android:name=".MainBroadcastReceiver"
+            android:exported="true"
+            android:permission="edu.uic.cs478.sp18.project3">
+
+            <intent-filter>
+                <action android:name="edu.uic.cs478.sp18.project3.attractions" />
+                <action android:name="edu.uic.cs478.sp18.project3.restaurants" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+</manifest>
